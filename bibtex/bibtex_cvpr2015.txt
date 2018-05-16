@@ -1,0 +1,6 @@
+@inproceedings{GygliCVPR15,
+   author ={Gygli, Michael and Grabner, Helmut and Van Gool, Luc},
+   title = {Video Summarization by Learning Submodular Mixtures of Objectives},
+   booktitle = {CVPR},
+   year = {2015}
+}

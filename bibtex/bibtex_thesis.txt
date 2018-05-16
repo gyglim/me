@@ -1,0 +1,6 @@
+@mastersthesis{Gygli2012,
+  title = {Sparse Quantization for Patch Description},
+  author       = {Michael Gygli}, 
+  school       = {University of Nice Sophia Antipolis},
+  year         = 2012
+}

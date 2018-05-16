@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0054)https://people.ee.ethz.ch/~gyglim/video2gif/cvpr16.php -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="./cvpr16_files/style.css" rel="stylesheet">
+<title>Website of Michael Gygli</title>
+</head>
+
+<body>
+
+		<div id="main">
+		
+				<div id="top_nav">
+					<!--<div class="top_link"><a href="index.html">Home</a></div>-->
+					<div class="top_link"><a href="../publications.php">Publications</a></div>
+		  			<div class="top_link"><a href="../contact.php">Contact</a></div>
+					<div class="top_link_right"><a href="../index.php">Michael Gygli, PhD Student</a></div>
+				</div>
+
+			<div class="clear"></div>
+			
+			
+			<div id="content_handler">
+				<div class="line" style="color:#000000;">	
+Video2GIF: Automatic Generation of Animated GIFs from Video, CVPR 2016</div>
+<table cellspacing="5"><tbody><tr>
+
+<td> <a href="../papers/video2gif_cvp16.pdf"><img src="./cvpr16_files/p1.jpg" width="300"></a>
+</td>
+<td style="vertical-align:top"><p>
+</p><p><b>Authors </b> </p>
+Michael Gygli, Yale Song, Liangliang Cao
+<br>
+
+<p><b>Abstract</b></p>
+<p>We introduce the novel problem of automatically generating
+animated GIFs from video. GIFs are short looping
+video with no sound, and a perfect combination between image
+and video that really capture our attention. GIFs tell a
+story, express emotion, turn events into humorous moments,
+and are the new wave of photojournalism. We pose the
+question: Can we automate the entirely manual and elaborate
+process of GIF creation by leveraging the plethora of
+user generated GIF content? We propose a Robust Deep
+RankNet that, given a video, generates a ranked list of its
+segments according to their suitability as GIF. We train our
+model to learn what visual content is often selected for GIFs
+by using over 100K user generated GIFs and their corresponding
+video sources. We effectively deal with the noisy
+web data by proposing a novel adaptive Huber loss in the
+ranking formulation. We show that our approach is robust
+to outliers and picks up several patterns that are frequently
+present in popular animated GIFs. On our new large-scale
+benchmark dataset, we show the advantage of our approach
+over several state-of-the-art methods
+</p>
+<p><a href="../papers/video2gif_cvp16.pdf">PAPER</a> | <a href="https://github.com/gyglim/video2gif_dataset">DATASET</a> |  <a href="https://github.com/gyglim/video2gif_code">CODE</a></p> 
+
+</td></tr>
+</tbody></table>
+<div class="line" style="color:#000000;">Press</div>	
+<br>
+<p>Our work is featured in various articles:</p>
+<p>
+<a href="http://motherboard.vice.com/read/these-fire-gifs-were-made-by-artificial-intelligence-yahoo"><img src="./cvpr16_files/motherboard.jpg" height="80"></a>
+&nbsp;&nbsp;
+<a href="http://www.lemonde.fr/big-browser/article/2016/05/20/une-intelligence-artificielle-peut-elle-faire-des-meilleurs-gifs-que-nous_4923255_4832693.html"><img src="./cvpr16_files/lemonde.png" height="40"></a>
+&nbsp;&nbsp;
+<a href="http://es.gizmodo.com/ensenan-a-una-ia-a-hacer-gifs-animados-los-hace-mejor-1777751469"><img src="./cvpr16_files/gismodo_es.png" height="40"></a>
+</p>
+
+
+<div class="line" style="color:#000000;">Dataset</div>	
+<br>
+<p>The dataset contains of over 100k GIFs and their source video. It can be
+obtained via <a href="https://github.com/gyglim/video2gif_dataset"><b>GitHub</b></a>.</p>
+
+<div class="line" style="color:#000000;">Pre-trained models</div>	
+<br>
+<p>We provide a pre-trained video highlight model together with some demo code on <a href="https://github.com/gyglim/video2gif_code"><b>GitHub</b></a>.</p>
+</div>
+			<div class="clear"></div>
+		</div>
+<script async="" src="./cvpr16_files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57467968-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body></html>

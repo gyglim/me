@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="./index_files/style.css" rel="stylesheet">
+<title>Website of Michael Gygli</title>
+</head>
+
+<body>
+
+		<div id="main">
+		
+				<div id="top_nav">
+					<div class="top_link"><a href="../publications.html">Publications</a></div>
+		  			<div class="top_link"><a href="..//contact.html">Contact</a></div>
+					<div class="top_link_right"><a href="../index.html">Michael Gygli, PhD Student</a></div>
+				</div>
+
+			<div class="clear"></div>
+			
+			
+			<div id="content_handler">
+				<div class="line" style="color:#000000;">The Interestingness of Images, ICCV 2013</div>
+<table cellspacing="5"><tbody><tr>
+<td><a href="../papers/GygliICCV13_interestingness.pdf"><img src="./index_files/iccv13_p1.png" width="300"></a>
+<a href="../papers/GygliICCV13_interestingness.pdf">PAPER</a> | <a href="poster_gygli13.pdf">POSTER</a> | <a href="../bibtex/iccv13_bibtex.txt">BIBTEX</a>
+</td>
+<td style="vertical-align:top"><p>
+</p><p><b>Authors </b> </p>
+Michael Gygli, Helmut Grabner, Hayko Riemenschneider, Fabian Nater and Luc Van Gool 
+<br>
+<p><b>Abstract</b></p>
+We investigate human interest in photos. Based on our own and others' psychophysical experiments, we identify various cues for "interestingness", namely aesthetics, unusualness and general preferences.
+For the ranking of retrieved images, interestingness shows to be more appropriate than cues proposed earlier. 
+Interestingness is correlated with what people believe they will remember. This is opposed to actual memorability, which is uncorrelated to both.
+We introduce a set of features computationally capturing the three main aspects of visual interestingness and build an
+interestingness predictor from them. Its performance is shown on three datasets with varying context, reflecting the prior knowledge of the viewers.
+<p></p>
+</td></tr>
+</tbody></table>
+<div class="line" style="color:#000000;">Data</div>	
+<table cellspacing="5">
+<tbody><tr style="vertical-align: text-top"><td><p><b>Webcam dataset [1]:</b></p></td><td><a href="http://www.vision.ee.ethz.ch/~hegrabne/DATA/interestingnessDatabase.zip">[Full dataset]</a><p></p></td></tr>
+<tr style="vertical-align: text-top"><td><p><b>Memorability dataset [2]: </b></p></td><td><a href="dataset_mem_scores.mat">[Interestingness scores]</a> <br> <a href="http://web.mit.edu/phillipi/Public/WhatMakesAnImageMemorable/">[Dataset]</a><p></p></td></tr>
+<tr style="vertical-align: text-top"><td><p><b>Scene category dataset [3]:</b></p></td><td><a href="dataset_scenecat_scores.mat">[Interestingness scores]</a> <br> <a href="http://people.csail.mit.edu/torralba/code/spatialenvelope/">[Dataset]</a><p></p><p></p></td></tr>
+</tbody></table>
+<div class="line" style="color:#000000;">References</div>
+<p>	
+</p><table cellspacing="3" cellpadding="0">
+<tbody><tr style="vertical-align: text-top; margin: 0; padding: 0; "><td>[1]: &nbsp;</td><td>H. Grabner, F. Nater, M. Druey, and L. Van Gool - Visual Interestingness in Image Sequences. ACM MM (2013)
+</td></tr>
+<tr style="vertical-align: text-top;margin: 0; padding: 0;"><td>[2]:</td><td>P. Isola, J. Xiao, A. Torralba, A. Oliva - What makes an image memorable? CVPR (2011)</td></tr>
+<tr style="vertical-align: text-top"><td>[3]:</td><td>A. Oliva, A. Torralba - Modeling the shape of the scene: A holistic representation of the spatial envelope. IJCV (2001)</td></tr>
+</tbody></table>
+</div>
+			<div class="clear"></div>
+		</div>
+<script async="" src="./index_files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57467968-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body></html>

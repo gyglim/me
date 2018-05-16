@@ -1,0 +1,6 @@
+@INPROCEEDINGS{Boix13CVPR,
+   AUTHOR = "Boix, X.  and Gygli, M. and Roig, G. and  Van Gool, L.",
+    TITLE = "Sparse Quantization for Patch Description",
+     YEAR = "2013",
+BOOKTITLE = "CVPR",
+}

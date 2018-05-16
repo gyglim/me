@@ -1,0 +1,6 @@
+@article{GygliICCV13,
+   author ={Gygli, Michael and Grabner, Helmut and Riemenschneider, Hayko and Nater, Fabian and Van Gool, Luc},
+    title = {The Interestingness Of Images},
+     journal = {ICCV},
+     year = {2013}
+}

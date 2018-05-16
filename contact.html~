@@ -1,0 +1,54 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script id="twitter-wjs" src="./contact_files/widgets.js"></script><script async="" src="./contact_files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57467968-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+<link href="./contact_files/style.css" rel="stylesheet">
+<title>Website of Michael Gygli</title>
+<script type="text/javascript" charset="utf-8" async="" src="./contact_files/button.7db838345f9545c91ea4497f64abb814.js"></script></head>
+
+<body>
+
+		<div id="main">
+		
+			<div id="header"> 
+			
+				<div id="top_nav">
+					<div class="top_link"><a href="publications.html">Publications</a></div>
+		  			<div class="top_link"><a href="contact.html">Contact</a></div>
+					<div class="top_link_right"><a href="index.html">Michael Gygli, PhD</a></div>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+		
+			
+			<div id="content_handler">
+				<div class="line">Contact  </div>
+				
+			
+				<div class="cont_box1"><img src="./contact_files/michael_gygli.jpg" width="200"></div>
+<p>Google Zurich Zürich</p>
+<p>Brandschenkerstrasse 100</p>
+<p>8002 Zürich</p>
+<p>Switzerland</p>
+<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" title="Twitter Follow Button" src="./contact_files/follow_button.31849fd556d065e6364d2ceb2dcd1e60.en.html" style="position: static; visibility: visible; width: 140px; height: 20px;" data-screen-name="GygliMichael"></iframe>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<p><img src="./contact_files/dcd.jpg" width="200/"></p>
+
+
+
+
+
+</div></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./contact_files/widget_iframe.31849fd556d065e6364d2ceb2dcd1e60.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./contact_files/saved_resource.html"></iframe></body></html>

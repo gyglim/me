@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="./index_files/style.css" rel="stylesheet">
+<title>Website of Michael Gygli</title>
+</head>
+
+<body>
+
+		<div id="main">
+		
+				<div id="top_nav">
+					<div class="top_link"><a href="../publications.html">Publications</a></div>
+		  			<div class="top_link"><a href="..//contact.html">Contact</a></div>
+					<div class="top_link_right"><a href="../index.html">Michael Gygli, PhD Student</a></div>
+				</div>
+
+			<div class="clear"></div>
+			
+			
+			<div id="content_handler">
+				<div class="line" style="color:#000000;">Creating Summaries from User Videos, ECCV 2014</div>
+<table cellspacing="5"><tbody><tr>
+
+<td><a href="../papers/GygliECCV14_vsum.pdf"><img src="./index_files/eccv14_p1.png" width="300"></a>
+</td>
+<td style="vertical-align:top"><p>
+</p><p><b>Authors </b> </p>
+Michael Gygli, Helmut Grabner, Hayko Riemenschneider and Luc Van Gool 
+<br>
+
+<p><b>Abstract</b></p>
+<p>This paper proposes a novel approach and a new benchmark for video summarization. Thereby we focus on user videos, which are raw videos containing a set of interesting events.
+Our method starts by segmenting the video by using a novel "superframe" segmentation, tailored to raw videos.
+Then, we estimate visual interestingness per superframe using a set of low-, mid- and high-level features.
+Based on this scoring, we select an optimal subset of superframes to create an informative and interesting summary.
+The introduced benchmark comes with multiple human created summaries, which were acquired in a controlled psychological experiment. 
+This data paves the way to evaluate summarization methods objectively and to get new insights in video summarization.
+When evaluating our method, we find that it generates high-quality results, comparable to manual, human-created summaries.
+</p>
+<p><a href="../papers/GygliECCV14_vsum.pdf">PAPER</a> | <a href="../bibtex/bibtex_eccv14.txt">BIBTEX</a> | <a href="#sf_code">SUPERFRAME CODE</a> | <a href="#benchmark">BENCHMARK DATA</a></p>
+</td></tr>
+</tbody></table>
+<div class="line" style="color:#000000;">Video Results</div>	
+<br>
+<p><b>Overview</b></p>
+<center>
+<iframe width="640" height="400" src="./index_files/JPtG0Air76E.html" frameborder="0" allowfullscreen=""></iframe>
+<br>
+<br>
+</center>
+<hr>
+<p><b>Video "Cooking"</b></p>
+<center>
+<iframe width="640" height="400" src="./index_files/lQ_gzqPNnKI.html" frameborder="0" allowfullscreen=""></iframe>
+<img src="./index_files/Cooking.png" width="700">
+</center>
+<br>
+<hr>
+<p><b>Video "Bike Polo"</b></p>
+<center>
+<iframe width="640" height="400" src="./index_files/0Q2hn-6hX9s.html" frameborder="0" allowfullscreen=""></iframe>
+<img src="./index_files/bike_polo.png" width="700">
+</center>
+<br>
+</div>
+<a name="sf_code"></a>
+<div class="line" style="color:#000000;">Superframe code</div>	
+<p>We provide the code for the superframe segmentation <a href="https://data.vision.ee.ethz.ch/cvl/SumMe/superframes_v01.zip">HERE</a>.</p>
+<p><b>Readme </b> </p>
+<div class="txt">
+<pre style="white-space: pre-wrap; word-wrap: break-word;">############################
+#                          #
+# Superframe Segmentation  #
+#                          #
+############################
+
+ Temporal segmentation code of the paper:
+	Creating Summaries from User Videos
+	by Michael Gygli, Helmut Grabner, Hayko Riemenschneider and Luc Van Gool
+	published in ECCV 2014, Zurich.
+
+ Code by Michael Gygli, PhD student @ ETH Zurich, Switzerland
+ Version: 0.1
+
+ Please report problems regarding the standard evaluation procedure to gygli@vision.ee.ethz.ch
+
+==========
+REQUIREMENTS:
+
+In order to run this code you need Matlab with the "Computer Vision Toolbox".
+
+==========
+MAIN CONTENTS:
+
+ demo.m             File how to extract superframes
+
+ example_frames	    Containes frames used in the demo
+
+...
+</pre>
+</div>
+			<div class="clear">&nbsp;</div>
+<a name="benchmark"></a>
+<div class="line" style="color:#000000;">Benchmark</div>	
+<p>We provide a new dataset (SumMe) consisting of 25 videos, each annotated with at least 15 human summaries (390 in total).
+The data consists of videos, annotations and evaluation code, as used in this paper.</p>
+<p><b>Download</b><br>
+You can download the data (Size: 2.2 GB) from <a href="https://data.vision.ee.ethz.ch/cvl/SumMe/SumMe.zip">HERE</a>.</p>
+<!--<p>In order to download the dataset, please register with your email. The download link will be sent to you
+<form>
+mail address: <input type='text'/>
+<br/>
+<input type='submit'/>
+</form>
+</p>-->
+<p><b>Readme </b> </p>
+<div class="txt">
+<pre style="white-space: pre-wrap; word-wrap: break-word;">############################
+#                          #
+# THE SUMME DATASET        #
+#                          #
+############################
+
+ Dataset &amp; evaluation code of the paper "Creating Summaries from User Videos"
+ by Michael Gygli, Helmut Grabner, Hayko Riemenschneider and Luc Van Gool
+ published in ECCV 2014, Zurich.
+
+ Code by Michael Gygli, PhD student @ ETH Zurich, Switzerland
+
+ Version: 0.1
+
+==========
+CONTAINS:
+
+ demo.m 		File that shows how to evaluate your summary
+ GT/			folder containing the human summary selections
+ videos/		folder with the videos themselves in webm and mp4 (H.264) format
+ matlab/		code for the evaluation including plotting
+ python/		basic code for evaluating in python (needs scipy, numpy, matplotlib)
+			to run the python demo call (from the dataset root): 
+				python python/demo.py
+
+==========
+LICENCE: 
+
+The videos were partially downloaded from YouTube and may subject to copyright. We don't own the copyright of the videos and only provide them for non-commercial research purposes only.
+The annotation data can be used freely for research purposes. Please cite:
+
+@inproceedings{GygliECCV14,
+   author ={Gygli, Michael and Grabner, Helmut and Riemenschneider, Hayko and Van Gool, Luc},
+   title = {Creating Summaries from User Videos},
+   booktitle = {ECCV},
+   year = {2014}
+}
+</pre>
+</div>
+			<div class="clear"></div>
+		</div>
+<script async="" src="./index_files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57467968-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body></html>
